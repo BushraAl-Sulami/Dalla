@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+* {
+    margin: 0;
+}
+
+header {
+    background: #D4C3A7;
+    display: flex;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+header h1 {
+    font-family: "chewy";
+    margin-top: 50px;
+    color: #464036;
+}
+
+nav {
+    margin-left: 52%;
+    margin-right: 0;
+    display: flex;
+    padding: 2% 6%;
+    align-items: center;
+}
+
+nav a {
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    padding: 10px;
+    color: #31241E;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.my-button {
+    background-color: #495237;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+
+
+header.redsea {
+    background: url(images/redseaislands_header.png);
+    text-align: center;
+    padding: 20px 0;
+    opacity: 0.7;
+}
+
+header.albalad {
+    background: url(images/albalad_header.jpg);
+    text-align: center;
+    padding: 20px 0;
+    opacity: 0.7;
+}
+
+header.alula {
+    background: url(images/alula_header.jpg);
+    text-align: center;
+    padding: 20px 0;
+    opacity: 0.7;
+}
+
+header.destinations img {
+    border-radius: 50px;
+}
+
+header.destinations h1 {
+    color: #31241E;
+    margin-left: 3px;
+}
+
+header.destinations a {
+    color: whitesmoke;
+}
+
+header.destinations {
+    display: block;
+}
+
+/* end of header */
+
+p {
+    text-align: start;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #495237;
+}
+
+.p_box {
+    text-align: start;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #464036;
+}
+
+.introduction {
+    background: #D4C3A7;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/home_background.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: "Libre Baskerville";
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.introduction h1 {
+    margin-top: 100px;
+    font-weight: 150;
+    font-size: xxx-large;
+    padding: 5px;
+    background: transparent;
+    color: white;
+}
+
+.square {
+    width: 400px;
+    height: 150px;
+    background-color: rgba(212, 195, 167, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+.square p {
+    background-color: rgba(212, 195, 167, 0.1);
+    font-size: larger;
+    text-align: center;
+}
+
+/* END OF HOME PAGE INTRODUCTION */
+
+article {
+    background: #D4C3A7;
+    font-family: "chewy";
+}
+
+.headings {
+    font-family: "chewy";
+    text-align: center;
+    font-size: 50px;
+    color: #31241E;
+    background-repeat: no-repeat;
+    background-size: 30% 30%;
+    background-position: 50% 50%;
+    background-image: linear-gradient(#B48C68, #B48C68);
+}
+
+.three-img {
+    width: 300px;
+    height: 215px;
+    border-radius: 20px;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 10px 50px;
+}
+
+.text-destinations {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 130px;
+    color: #495237;
+    font-family: "Libre Baskerville";
+}
+
+.two-structure {
+    max-width: 100%;
+    min-height: 100%;
+    display: grid;
+    margin: 0%;
+}
+
+
+.two-image {
+    width: 560px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    margin: 10px 50px;
+}
+
+.original {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.reverse {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* end of home page content */
+
+
+footer {
+    background-color: #3E2723;
+    padding: 20px;
+    font-family: "CHEWY";
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    line-height: 2.4;
+    color: #B48C68;
+}
+
+footer ul li a {
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    padding: none;
+    margin: none;
+    color: #D4C3A7;
+    font-size: 20px;
+}
+
+.footer-heading {
+    color: #D4C3A7;
+    font-size: 30px;
+    font-family: "chewy";
+}
+
+.logo {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.footer-text {
+    margin-top: 50px;
+    color: #B48C68;
+    font-size: 20px;
+    text-align: justify;
+    font-family: "chewy";
+}
+
+.footer-contact {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* end of footer */
+
+/* style of horizontal lines */
+.hr {
+    height: 1px;
+    border-width: 0;
+    color: #808080;
+    background-color: #808080;
+    width: 90%;
+    margin: auto;
+}
+
+.banner-content {
+    background-color: #ECE6D6;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+
+.headd {
+    font-family: "chewy";
+    text-align: center;
+    font-size: 25px;
+    color: #495237;
+}
+
+
+.box-img {
+    width: 200px;
+    height: 100px;
+    border-radius: 70px;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 10px 50px;
+    opacity: 0.8;
+}
+
+
+.rounded-box {
+    background-color: #BEA182;
+    border-radius: 90px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+.guides-box {
+    background-color: #ECE6D6;
+    border-radius: 200px;
+    width: 30%;
+    padding: 23px;
+    text-align: center;
+}  
+
+
+/* form style  */
+.main-section{
+    background-color: #D4C3A7;
+}
+.form-section{
+    display: flex;
+    flex-direction: row;
+}
+
+form{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.form-img{
+    margin-left: 45px;
+    border-radius: 5%;
+    margin-bottom: 40px;
+    margin-top:85px;
+}
+
+.form-heading{
+    color: #3E2723;
+    font-size: 35px;
+    font-family: "chewy";
+    text-align: center;
+    padding-top: 50px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #31241E;
+    font-size: 18px;
+    font-family: "Libre Baskerville";
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    background-color: #F5F5F5;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    outline: none;
+    background-color: #E6E6E6;
+}
+
+input[type="submit"] {
+    padding: 12px 24px;
+    border: none;
+    background-color: #495237;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #31241E;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-group label {
+    margin-right: 10px;
+    color: #31241E;
+    
+    
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* end of form style */
